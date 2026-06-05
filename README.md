@@ -7,4 +7,4 @@ L'applicazione sfrutta un database locale nel quale vengono salvati tutti i dati
 Alcune parti dell'applicazione sono in corso di sviluppo.
 
 # Installazione Android
-Per installare l'app su Android per testare questa versione Beta è necessario scaricare il file "app.apk" (versione Beta al momento e non definitiva) ed installare l'apk sul proprio dispositivo.
+Per installare l'app su Android per testare questa versione Beta è necessario scaricare il file "./files/app.apk" (versione Beta al momento e non definitiva) ed installare l'apk sul proprio dispositivo.
