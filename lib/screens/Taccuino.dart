@@ -521,7 +521,7 @@ class _TaccuinoState extends State<Taccuino> {
                             children: 
                             [
                               //Mostro l'icona
-                              Icon(nota.ammonito || nota.espulso ? MieIcone.card : Icons.note, color: nota.ammonito ? Colors.amber : nota.espulso ? Colors.red : Colors.black,),
+                              //Icon(nota.ammonito || nota.espulso ? MieIcone.card : Icons.note, color: nota.ammonito ? Colors.amber : nota.espulso ? Colors.red : Colors.black,),
                               nota.personaFinale == "Giocatore" || nota.personaFinale == "Luogo" || nota.personaFinale == "Dirigente" || nota.personaFinale == "Squadra" ?
                               Text(nota.nomePersona ?? "", style: TextStyle(fontWeight: FontWeight(700), fontSize: 25),)
                               : 

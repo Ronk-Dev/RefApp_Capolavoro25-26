@@ -50,12 +50,15 @@ class Nota
   Nota({required this.personaFinale, this.id, this.nomePersona, this.nota, required this.ammonito, required this.espulso});
 }
 
+
+/*
 class MieIcone {
   static const IconData card = IconData(0xe900, fontFamily: 'MieIcone');
   static const IconData raduno = IconData(0xe901, fontFamily: 'MieIcone');
   static const IconData allenamento = IconData(0xe902, fontFamily: 'MieIcone');
   static const IconData partita = IconData(0xe903, fontFamily: 'MieIcone');
 }
+*/
 
 class Evento 
 {
