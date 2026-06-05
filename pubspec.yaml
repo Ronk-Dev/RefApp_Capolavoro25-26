@@ -1,0 +1,53 @@
+name: refapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #Librerie
+  sqflite: ^2.4.2+1
+  flutter_lints: ^6.0.0
+  carousel_slider: ^5.1.2
+  syncfusion_flutter_charts: ^33.2.3
+  easy_date_timeline: ^2.0.9
+  dropdown_button2: ^3.1.0
+
+  shared_preferences: ^2.5.5
+  webview_flutter: ^4.13.1
+  flutter_secure_storage: ^10.3.1
+  connectivity_plus: ^7.1.1
+  local_auth: ^3.0.1
+
+  #Notifiche Android
+  #Per le notifiche su Android, presente modifica nel Manifest
+  #per prendere quando il telefono si riavvia e permettere di intercettare le notifiche
+  flutter_local_notifications: ^21.0.0
+  timezone: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+
+flutter:
+  assets:
+    - assets/imgs/
+  fonts:
+        - family: MieIcone
+          fonts:
+            - asset: assets/fonts/MyIcons.ttf
+
+        - family: Principale
+          fonts:
+            - asset: assets/fonts/Oxanium-Bold.ttf
+              weight: 700
+            - asset: assets/fonts/Oxanium-Light.ttf
+              style: normal
+            - asset: assets/fonts/Oxanium-Medium.ttf
+              weight: 300
+  uses-material-design: true
